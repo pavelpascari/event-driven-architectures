@@ -1,10 +1,10 @@
-import { CircuitBoard } from "lucide-react"
+import { Hexagon } from "lucide-react"
 
 type IconProps = React.HTMLAttributes<SVGElement>
 
 export const Icons = {
     logo: (props: IconProps) => (
-        <CircuitBoard {...props} />
+        <Hexagon {...props} height="24" width="24" />
   ),
   twitter: (props: IconProps) => (
     <svg
