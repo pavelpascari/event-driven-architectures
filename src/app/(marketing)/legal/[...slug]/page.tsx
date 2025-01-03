@@ -1,8 +1,9 @@
-const LegalPage: React.FC<{ children: React.ReactNode }> = ({ children }) => {  
+const LegalPage: React.FC<{ 
+  params: Promise<{ slug: string }>
+ }> = ({  }) => {
     return (
         <div>
             <h2>Legal Page</h2>
-            {children}
         </div>
     );
 }

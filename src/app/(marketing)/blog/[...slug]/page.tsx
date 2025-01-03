@@ -1,8 +1,10 @@
-const BlogPage: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const BlogPage: React.FC<{ 
+  params: Promise<{ slug: string }>
+ }> = ({  }) => {
     return (
         <div>
             <h1>Blog Page</h1>
-            {children}
+            
         </div>
     );
 }

@@ -1,8 +1,7 @@
-const BlogHome: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+const BlogHome: React.FC = () => {
     return (
         <div>
             <h1>Blog Home</h1>
-            {children}
         </div>
     );
 }
